@@ -1,24 +1,52 @@
-# PRODIGY_SD_03
-  📇 Task 3: Simple Contact Management System
+# 📇 Simple Contact Management System
 
-This is my third task for the Prodigy Infotech internship. I built a menu-driven Contact Management System using Python that allows users to add, view, edit, and delete contacts, with persistent storage using a local file.
+📌 **Task-03: Implement a Simple Contact Management System**
 
-## 💻 What I Built
+This is a Python-based contact management system created as part of the Prodigy InfoTech Internship. The program allows users to store, view, edit, and delete contact information such as name, phone number, and email address.
 
-- A terminal-based program with a clean text menu
-- Users can:
-  - Add new contacts (name, phone, email)
-  - View all saved contacts
-  - Edit existing contact details
-  - Delete any contact
-- Contacts are saved to a `.txt` file so they persist after closing the program
+Contacts are stored in memory during runtime or optionally written to a file for persistent storage.
 
-## 🧠 What I Learned
+---
 
-- Using functions to organize code logically  
-- Handling user inputs and performing validations  
-- Reading from and writing to files using Python  
-- Structuring a basic CRUD (Create, Read, Update, Delete) system  
+## 🧠 Objective
 
-Big thanks to **Prodigy Infotech** for giving me this opportunity to grow through real-world Python projects!
+- Add a new contact by entering:
+  - Name
+  - Phone number
+  - Email address
+- View all saved contacts
+- Edit an existing contact
+- Delete a contact
+- (Optional) Store contacts in a file for future sessions
+
+---
+
+## 📥 Sample Input/Output
+
+```bash
+📇 Contact Management System
+
+1. Add Contact
+2. View Contacts
+3. Edit Contact
+4. Delete Contact
+5. Save and Exit
+
+Enter your choice: 1
+
+Enter Name: Adesh Merukar
+Enter Phone Number: 9876543210
+Enter Email: adesh@example.com
+
+✅ Contact added successfully!
+
+# Later...
+Enter your choice: 2
+
+📋 Saved Contacts:
+1. Adesh Merukar | 9876543210 | adesh@example.com
+
+🛠️ Developed using Python
+🧑‍💻 Made by: Adesh Merukar
+✨ This project is part of the Prodigy InfoTech Internship Tasks
 
